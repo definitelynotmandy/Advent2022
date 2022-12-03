@@ -1,4 +1,4 @@
-﻿string[] input = File.ReadAllLines($"{Environment.CurrentDirectory}\\..\\..\\..\\day1.txt");
+﻿string[] input = File.ReadAllLines($"{Directory.GetParent(Environment.CurrentDirectory).Parent.Parent.FullName}\\day1.txt");
 
 void MostCalories(string[] input )
 {
@@ -44,4 +44,5 @@ void TopThreeCalories(string[] input)
     Console.WriteLine($"Total calories carried by top 3 clowns: {top3[0] + top3[1] + top3[2]}");
 }
 
+MostCalories(input);
 TopThreeCalories(input);
