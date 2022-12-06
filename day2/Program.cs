@@ -1,5 +1,5 @@
 ﻿//one day when im smarter i will think of a more elegant way of reading a file but that sounds like a later-mandy's problem
-string[] input = File.ReadAllLines($"{Directory.GetParent(Environment.CurrentDirectory).Parent.Parent.FullName}\\day2.txt");
+string[] input = File.ReadAllLines($@"{Environment.CurrentDirectory}\day2.txt");
 
 void Part1 (string[] input) { 
     char[] plays = new char[2];

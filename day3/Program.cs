@@ -1,4 +1,4 @@
-﻿string[] input = File.ReadAllLines($"{Directory.GetParent(Environment.CurrentDirectory).Parent.Parent.FullName}\\day3.txt");
+﻿string[] input = File.ReadAllLines(@$"{Environment.CurrentDirectory}\day3.txt");
 
 void Part1(string[] input)
 {

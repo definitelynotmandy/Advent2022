@@ -1,4 +1,4 @@
-﻿string[] input = File.ReadAllLines($"{Directory.GetParent(Environment.CurrentDirectory).Parent.Parent.FullName}\\day1.txt");
+﻿string[] input = File.ReadAllLines(@$"{Environment.CurrentDirectory}\day1.txt");
 
 void MostCalories(string[] input )
 {
