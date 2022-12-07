@@ -73,8 +73,9 @@ namespace Advent2022
                     total = total + index;
                 }
                 Console.WriteLine($"\tb) {total}");
+            }
 
-                List<List<string>> GetGroups(string[] input)
+            List<List<string>> GetGroups(string[] input)
                 {
                     List<List<string>> groups = new();
                     List<string> current = new();
@@ -89,7 +90,6 @@ namespace Advent2022
                     }
                     return groups;
                 }
-            }
 
             Part1(input);
             Part2(input);
