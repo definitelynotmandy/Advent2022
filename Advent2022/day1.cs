@@ -1,6 +1,4 @@
-﻿using System.Runtime.CompilerServices;
-
-namespace Advent2022
+﻿namespace Advent2022
 {
     internal class day1
     {
@@ -28,7 +26,7 @@ namespace Advent2022
                         calories = calories + int.Parse(line);
                     }
                 }
-                Console.WriteLine($"Day 1\ta) {maxCalories}");
+                Console.WriteLine($"a) {maxCalories}");
             }
 
             void Part2(string[] input)
@@ -49,7 +47,7 @@ namespace Advent2022
                     }
                 }
                 var top3 = caloriesList.OrderByDescending(x => x).ToList();
-                Console.WriteLine($"\tb) {top3[0] + top3[1] + top3[2]}");
+                Console.WriteLine($"b) {top3[0] + top3[1] + top3[2]}");
             }
 
             Part1(input);

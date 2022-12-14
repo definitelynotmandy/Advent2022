@@ -20,7 +20,7 @@
                 _ = (((int.Parse(pair[0][0]) <= int.Parse(pair[1][0])) && (int.Parse(pair[1][0]) <= int.Parse(pair[0][1]))) || ((int.Parse(pair[0][0]) <= int.Parse(pair[1][1])) && (int.Parse(pair[1][1]) <= int.Parse(pair[0][1]))) || ((int.Parse(pair[1][0]) <= int.Parse(pair[0][0])) && (int.Parse(pair[0][0]) <= int.Parse(pair[1][1]))) || ((int.Parse(pair[1][0]) <= int.Parse(pair[0][1])) && (int.Parse(pair[0][1]) <= int.Parse(pair[1][1])))) ? overlap2++ : overlap2 + 0;
             }
 
-            Console.WriteLine($"\nDay 4\ta) {overlap1}\n\tb) {overlap2}");
+            Console.WriteLine($"a) {overlap1}\nb) {overlap2}");
         }
     }
 }

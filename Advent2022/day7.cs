@@ -7,11 +7,12 @@
             var input = File.ReadAllLines(@$"{Environment.CurrentDirectory}\Inputs\day7.txt");
             List<Node> tree = GetNodeTree(input);
 
-            Console.WriteLine($"\nDay7\ta) {tree.Where(x => x.Size <= 100000).Select(x => x.Size).Sum()}\n\tb) {Part2(input, tree)}");
+            Console.WriteLine($"a) {tree.Where(x => x.Size <= 100000).Select(x => x.Size).Sum()}\nb) {Part2(input, tree)}");
         }
 
         private static int Part2(string[] input, List<Node> tree)
         {
+            // because my tree is a mess i am confused i dont know how to add all the sizes of the directories together and so this is cheap but it works idk what you want from me
             int totalSize = 0;
             foreach (string line in input)
             {

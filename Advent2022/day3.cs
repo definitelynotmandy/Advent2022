@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Advent2022
+﻿namespace Advent2022
 {
     internal class day3
     {
@@ -49,7 +43,7 @@ namespace Advent2022
 
                     total = total + index;
                 }
-                Console.WriteLine($"\nDay 3\ta) {total}");
+                Console.WriteLine($"a) {total}");
             }
 
             void Part2(string[] input)
@@ -72,7 +66,7 @@ namespace Advent2022
 
                     total = total + index;
                 }
-                Console.WriteLine($"\tb) {total}");
+                Console.WriteLine($"b) {total}");
             }
 
             List<List<string>> GetGroups(string[] input)

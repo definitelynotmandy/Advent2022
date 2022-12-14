@@ -40,7 +40,7 @@
                     };
                 };
 
-                Console.WriteLine($"\nDay 2\ta) {totalScore}");
+                Console.WriteLine($"a) {totalScore}");
             };
 
             void Part2(string[] input)
@@ -77,7 +77,7 @@
                     };
                 }
 
-                Console.WriteLine($"\tb) {totalScore}");
+                Console.WriteLine($"b) {totalScore}");
             };
 
             Part1(input);

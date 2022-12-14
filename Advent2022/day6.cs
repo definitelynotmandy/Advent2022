@@ -1,11 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Reflection;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Advent2022
+﻿namespace Advent2022
 {
     internal class day6
     {
@@ -25,7 +18,7 @@ namespace Advent2022
                              .First(x => input.Substring(x.i, 14).Distinct().Count() == 14)
                              .i;
 
-            Console.WriteLine($"\nDay6\ta) {index1 + 4}\n\tb) {index2 + 14}");
+            Console.WriteLine($"a) {index1 + 4}\nb) {index2 + 14}");
         }
     }
 }
