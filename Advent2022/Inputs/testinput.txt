@@ -1,0 +1,17 @@
+$ cd /
+$ ls
+5 five
+dir one
+dir two
+$ cd one
+$ ls
+10 ten
+dir onehalf
+$ cd onehalf
+$ ls
+15 fifteen
+$ cd ..
+$ cd ..
+$ cd two
+$ ls
+20 twenty
